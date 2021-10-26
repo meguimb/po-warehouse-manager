@@ -1,0 +1,30 @@
+DaysToAdvanceNotValidException
+
+Inputs do CompositePrintStream e outputs do Display?
+
+Partner.java é em src/ggc/app/ ou em src/ggc/app/partners
+
+TODO:
+-> Transaction Class
+-> Notification Class
+-> Status Class
+-> DeliveryMethod
+-> get_partners and get_products in WarehouseManager
+
+
+
+ALTEREI:
+-> classes previamente vazias, criei alguns atributos e fui fazendo o equivalente das setas
+-> WM e Warehouse get_products e get_partners
+-> DoRegisterPartner (not sure about Prompts.x)
+-> Duplicate Partner Key Exception?
+-> registerPartner in WM and W
+-> TODO DuplicatePartnerException
+-> DoShowPartner
+-> Complete UnknownPartnerKeyException (pre created)
+-> TODO fazer imports
+
+Q&A:
+-> afinal o que pode ser static e não pode nas definições de classes?
+-> é suposto implementar "Visualizar todos os lotes" mas em products/ só aparecem as classes 
+"DoShowBatchesByPartner" e "DoShowBatchesByProduct", é suposto criar uma nova ou só implementar essas duas?
